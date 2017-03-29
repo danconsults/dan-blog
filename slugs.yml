@@ -1,0 +1,5 @@
+assign page_slug = page.url | remove_first: '/' | split: '/' %}
+{% assign slug_first = page_slug[0] %}
+{% assign slug = site.data.slugs[slug_first] %}
+
+

@@ -1,12 +1,15 @@
 ---
-
 layout: default
-
+title: posts
+excerpt: "An archive of blog posts sorted by date."
+search_omit: false
 ---
+<!-- <div class="content full-bleed intro">
+  Welcome to my homepage!!1
+</div> -->
 
-<div class="breadcrumbs" {% include breadcrumbs.html %} </div>
 
- class="articles">
+<div class="posts">
   <div class="content full-bleed" id="recent-posts">
   {% for post in site.posts limit:50 %}<a
     href="{{ post.url }}" class="post-excerpt{% if post.photo_url %} photo{% endif %}">
@@ -16,7 +19,8 @@ layout: default
         <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
       {% else %}
         <!-- <div class="title">{{ post.title }}</div> -->
-        <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
+
+  <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
           {{ post.date | date: "%b %Y" }}
         </info>
         {% if post.description %}
