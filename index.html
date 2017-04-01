@@ -4,9 +4,6 @@ layout: default
 
 ---
 
-
-
- class="articles">
   <div class="content full-bleed" id="recent-posts">
   {% for post in site.posts limit:50 %}<a
     href="{{ post.url }}" class="post-excerpt{% if post.photo_url %} photo{% endif %}">
