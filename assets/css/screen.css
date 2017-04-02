@@ -595,7 +595,7 @@ footer {
   /* To constrain pre-formatted text to body width */
   body { color:black; }
   html.ios pre { overflow:scroll; }
-  html.ios pre, html.ios code, html.ios tt { font-size:0.95em; }
+  html.ios pre, html.ios code, html.ios tt { font-size:1em; }
   header { margin:0 60px 0 45px; }
   header ul.navigation li a { font-size:14px; }
   div.content { font-size:1.2em; }
