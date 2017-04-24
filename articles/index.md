@@ -3,6 +3,7 @@ layout: default
 title: Sample Articles
 excerpt: "An archive of articles sorted by date."
 search_omit: true
+breadcrumb: articles
 ---
 
 <div id="main" role="main">
