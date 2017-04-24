@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+breadcrumb: About
 ---
 
 <img src="dimg.jpg" width="50%" align="right">
