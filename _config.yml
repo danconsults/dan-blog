@@ -5,7 +5,8 @@ permalink: '/:title/'
 markdown: kramdown
 # Since GH pages override this to "true", we test this value to see if we are running locally
 safe: false
-baseurl:"/" "www."
+# baseurl was initially set as "/"
+baseurl:"www."
 include: [".well-known"]
 gems:
   - jekyll-redirect-from
